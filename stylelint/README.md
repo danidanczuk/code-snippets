@@ -65,6 +65,32 @@ Because of these tools, the following folders are ignored in linting:
 ]
 ```
 
+## 💡 VS Code Integration
+
+To ensure seamless formatting and linting while editing your SCSS files in VS Code, add the following to your project-level or global settings.json:
+
+```
+// prettier
+"[scss]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+},
+// end prettier
+
+// stylelint
+"editor.codeActionsOnSave": {
+  "source.fixAll.stylelint": "explicit"
+},
+"stylelint.validate": [
+  "css",
+  "scss"
+]
+// end stylelint
+```
+
+> This ensures Prettier handles formatting, while Stylelint handles linting and auto-fixing on save.
+
+
 ## 🧾 Notes
 
 - Tailwind-generated files (assets/tailwindcss/\*.css) and compiled SCSS (assets/css/**/\*.css) are intentionally ignored.
