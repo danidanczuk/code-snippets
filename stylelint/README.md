@@ -67,7 +67,7 @@ Because of these tools, the following folders are ignored in linting:
 
 ## 🧾 Notes
 
-- Tailwind-generated files (assets/tailwindcss/*.css) and compiled SCSS (assets/css/**/*.css) are intentionally ignored.
+- Tailwind-generated files (assets/tailwindcss/\*.css) and compiled SCSS (assets/css/**/\*.css) are intentionally ignored.
 - Some default rules are disabled to better fit real-world SCSS and Tailwind projects.
 
 ## 📁 Files
