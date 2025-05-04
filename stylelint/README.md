@@ -53,6 +53,7 @@ transition: all 0.3s ease;
 ## 🛠 Tools Used
 > ⚠️ Note: This config is designed to work alongside the following tools:
 
+- Prettier (VS Code) - Automatically format SCSS with single quotes
 - Live Sass Compiler (VS Code) – Compiles SCSS to CSS locally.
 - Tailwind CSS CLI – Generates utility CSS files via CLI.
 
@@ -90,6 +91,17 @@ To ensure seamless formatting and linting while editing your SCSS files in VS Co
 
 > This ensures Prettier handles formatting, while Stylelint handles linting and auto-fixing on save.
 
+## 🧾 Prettier Config
+
+This project uses Prettier to automatically format SCSS with single quotes.
+Create or edit the `.prettierrc` file:
+
+```
+{
+  "singleQuote": true,
+  "scssSingleQuote": true
+}
+```
 
 ## 🧾 Notes
 
