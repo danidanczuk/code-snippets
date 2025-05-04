@@ -72,5 +72,5 @@ Because of these tools, the following folders are ignored in linting:
 
 ## 📁 Files
 
-`.stylelintrc.json` – Main config
-`README.md` – This file
+- `.stylelintrc.json` – Main config
+- `README.md` – This file
